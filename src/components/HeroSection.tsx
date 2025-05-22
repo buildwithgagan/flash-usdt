@@ -8,7 +8,7 @@ export const HeroSection = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
             <h1 className="text-4xl md:text-5xl font-bold text-tether-dark-gray mb-4">
-              Tether token
+              Flash USDT
             </h1>
             <h2 className="text-3xl md:text-4xl font-bold text-tether-dark-gray mb-8">
               The World's First Stablecoin
