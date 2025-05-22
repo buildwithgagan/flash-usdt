@@ -6,7 +6,6 @@ import { BackedTransparent } from "@/components/BackedTransparent";
 import { WidespreadAdoption } from "@/components/WidespreadAdoption";
 import { TetherForSections } from "@/components/TetherForSections";
 import { FAQSection } from "@/components/FAQSection";
-import { NewsSection } from "@/components/NewsSection";
 import { Footer } from "@/components/Footer";
 
 const Index = () => {
@@ -20,7 +19,6 @@ const Index = () => {
         <WidespreadAdoption />
         <TetherForSections />
         <FAQSection />
-        <NewsSection />
       </main>
       <Footer />
     </div>
