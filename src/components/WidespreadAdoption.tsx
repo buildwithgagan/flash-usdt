@@ -13,7 +13,7 @@ export const WidespreadAdoption = () => {
         <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16 mb-12">
           {/* Partner Logos - Using gray placeholders */}
           {[1, 2, 3, 4, 5].map((i) => (
-            <div key={i} className="h-8 flex items-center opacity-60 hover:opacity-100 transition-opacity">
+            <div key={i} className="h-8 flex items-center opacity-60">
               <div className="w-24 h-6 bg-gray-300 rounded"></div>
             </div>
           ))}
