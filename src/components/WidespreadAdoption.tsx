@@ -7,7 +7,7 @@ export const WidespreadAdoption = () => {
           Widespread adoption
         </h2>
         <p className="text-gray-600 mb-12 max-w-3xl mx-auto text-center">
-          Tether tokens are the most widely adopted stablecoins across major blockchains and protocols, supporting a growing number of use cases in the digital economy.
+          Flash USDT tokens are the most widely adopted stablecoins across major blockchains and protocols, supporting a growing number of use cases in the digital economy.
         </p>
         
         <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16 mb-12">

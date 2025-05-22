@@ -7,17 +7,17 @@ export const TetherForSections = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <TetherForCard 
-            title="Tether for Individuals"
+            title="Flash USDT for Individuals"
             icon="👤"
             description="Fast, low-cost digital transactions for all. Send money across the globe in seconds with minimal fees."
           />
           <TetherForCard 
-            title="Tether for Merchants"
+            title="Flash USDT for Merchants"
             icon="🏪"
             description="Accept payments from anyone, anywhere in the world. Fast settlement, low fees, no chargebacks."
           />
           <TetherForCard 
-            title="Tether for Exchanges"
+            title="Flash USDT for Exchanges"
             icon="📊"
             description="The most liquid, stable trading pair. Enhance your exchange with the world's most used stablecoin."
           />

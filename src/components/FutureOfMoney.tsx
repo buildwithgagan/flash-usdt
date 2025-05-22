@@ -13,7 +13,7 @@ export const FutureOfMoney = () => {
                 <path d="M12 6c-3.31 0-6 2.69-6 6h2c0-2.21 1.79-4 4-4s4 1.79 4 4h2c0-3.31-2.69-6-6-6z"/>
                 <path d="M12 11h-2v2h2v-2zm4 0h-2v2h2v-2zm-8 0H6v2h2v-2z"/>
               </svg>
-              <span className="sr-only">Tether Logo</span>
+              <span className="sr-only">Flash USDT Logo</span>
             </div>
           </div>
           <div className="md:w-1/2">
@@ -21,17 +21,17 @@ export const FutureOfMoney = () => {
               Driving the Future of Money
             </h2>
             <p className="text-gray-600 mb-6">
-              Tether tokens are assets that move across the blockchain just as easily as other digital currencies but that are pegged to real-world currencies on a 1-to-1 basis.
+              Flash USDT tokens are assets that move across the blockchain just as easily as other digital currencies but that are pegged to real-world currencies on a 1-to-1 basis.
             </p>
             <p className="text-gray-600 mb-6">
-              Tether tokens are referred to as stablecoins because they offer price stability as they are pegged to a fiat currency. This offers traders, merchants and funds a low volatility solution when exiting positions in the market.
+              Flash USDT tokens are referred to as stablecoins because they offer price stability as they are pegged to a fiat currency. This offers traders, merchants and funds a low volatility solution when exiting positions in the market.
             </p>
             <p className="text-gray-600 mb-6">
-              All Tether tokens are pegged at 1-to-1 with a matching fiat currency and are backed 100% by Tether's reserves.
+              All Flash USDT tokens are pegged at 1-to-1 with a matching fiat currency and are backed 100% by Flash USDT's reserves.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button variant="link" className="text-tether-primary hover:text-tether-dark underline">
-                Learn More About Tether
+                Learn More About Flash USDT
               </Button>
             </div>
           </div>

@@ -9,7 +9,7 @@ export const BackedTransparent = () => {
               100% backed and fully transparent
             </h2>
             <p className="text-gray-600 mb-6">
-              All Tether tokens (USD₮) are pegged at 1-to-1 with a matching fiat currency (e.g., 1 USD₮ = 1 USD) and are backed 100% by Tether's reserves. We publish a daily record of the current total assets and reserves.
+              All Flash USDT tokens (USD₮) are pegged at 1-to-1 with a matching fiat currency (e.g., 1 USD₮ = 1 USD) and are backed 100% by Flash USDT's reserves. We publish a daily record of the current total assets and reserves.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="#" className="text-tether-primary hover:text-tether-dark underline text-sm">

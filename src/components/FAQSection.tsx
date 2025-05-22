@@ -14,39 +14,39 @@ export const FAQSection = () => {
         
         <div className="max-w-3xl mx-auto">
           <Accordion type="single" collapsible className="space-y-4">
-            <FAQItem value="item-1" question="What is Tether?">
+            <FAQItem value="item-1" question="What is Flash USDT?">
               <p>
-                Launched in 2014, Tether tokens (USD₮) pioneered the stablecoin model and are the most widely traded. 
-                Tether tokens offer the stability and simplicity of fiat currencies coupled with the innovative nature 
+                Launched in 2014, Flash USDT tokens (USD₮) pioneered the stablecoin model and are the most widely traded. 
+                Flash USDT tokens offer the stability and simplicity of fiat currencies coupled with the innovative nature 
                 of blockchain technology, representing a perfect combination of both worlds.
               </p>
             </FAQItem>
             
-            <FAQItem value="item-2" question="How do Tether tokens work?">
+            <FAQItem value="item-2" question="How do Flash USDT tokens work?">
               <p>
-                Tether tokens are assets that move across the blockchain just as easily as other digital currencies 
-                but that are pegged to real-world currencies on a 1-to-1 basis. Tether tokens are referred to as stablecoins 
+                Flash USDT tokens are assets that move across the blockchain just as easily as other digital currencies 
+                but that are pegged to real-world currencies on a 1-to-1 basis. Flash USDT tokens are referred to as stablecoins 
                 because they offer price stability as they are pegged to a fiat currency.
               </p>
             </FAQItem>
             
-            <FAQItem value="item-3" question="What are Tether tokens?">
+            <FAQItem value="item-3" question="What are Flash USDT tokens?">
               <p>
-                Tether tokens are assets that move across the blockchain just as easily as other digital currencies 
+                Flash USDT tokens are assets that move across the blockchain just as easily as other digital currencies 
                 but that are pegged to real-world currencies on a 1-to-1 basis.
               </p>
             </FAQItem>
             
-            <FAQItem value="item-4" question="What currencies and commodities does Tether support?">
+            <FAQItem value="item-4" question="What currencies and commodities does Flash USDT support?">
               <p>
-                Tether supports US Dollar (USD₮), Euro (EUR₮), offshore Chinese Yuan (CNH₮), 
+                Flash USDT supports US Dollar (USD₮), Euro (EUR₮), offshore Chinese Yuan (CNH₮), 
                 Mexican Peso (MXN₮), and Gold (XAU₮).
               </p>
             </FAQItem>
             
-            <FAQItem value="item-5" question="Who can use Tether tokens?">
+            <FAQItem value="item-5" question="Who can use Flash USDT tokens?">
               <p>
-                Tether tokens enable businesses, individuals and institutions to move value across 
+                Flash USDT tokens enable businesses, individuals and institutions to move value across 
                 the blockchain without the inherent volatility of digital currencies.
               </p>
             </FAQItem>
