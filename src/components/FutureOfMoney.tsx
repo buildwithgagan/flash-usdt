@@ -9,7 +9,7 @@ export const FutureOfMoney = () => {
           <div className="md:w-1/2 mb-10 md:mb-0">
             <div className="relative w-64 h-64 mx-auto">
               <img 
-                src="/lovable-uploads/097c7ca3-4b91-4175-9c6f-1b822378f012.png" 
+                src="/lovable-uploads/d858fd52-056d-41a8-b060-b1157483ee7c.png" 
                 alt="Flash USDT Logo" 
                 className="w-full h-full object-contain"
               />
