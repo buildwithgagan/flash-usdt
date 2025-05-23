@@ -17,22 +17,13 @@ export const BackedTransparent = () => {
               </a>
             </div>
           </div>
-          <div className="md:w-1/2">
-            <div className="relative">
-              {/* Circular Design Element */}
-              <div className="w-72 h-72 rounded-full bg-tether-primary relative overflow-hidden mx-auto">
-                <div className="absolute top-0 right-0 w-1/2 h-full bg-white"></div>
-                <div className="absolute bottom-0 right-0 w-36 h-36 bg-tether-primary rounded-full flex items-center justify-center">
-                  <svg className="w-16 h-16 text-white" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
-                    <path d="M12 6c-3.31 0-6 2.69-6 6h2c0-2.21 1.79-4 4-4s4 1.79 4 4h2c0-3.31-2.69-6-6-6z"/>
-                    <path d="M12 11h-2v2h2v-2zm4 0h-2v2h2v-2zm-8 0H6v2h2v-2z"/>
-                  </svg>
-                </div>
-                <div className="absolute bottom-0 left-0 w-36 h-36 bg-white rounded-full border-4 border-tether-light flex items-center justify-center">
-                  <div className="w-10 h-10 rounded-full border-4 border-tether-primary"></div>
-                </div>
-              </div>
+          <div className="md:w-1/2 flex items-center justify-center">
+            <div className="relative w-64 h-64 p-4">
+              <img 
+                src="/lovable-uploads/ec147ca9-4d05-46c8-bba5-e0c91bcd5a7f.png" 
+                alt="USDT Logo" 
+                className="w-full h-full object-contain"
+              />
             </div>
           </div>
         </div>
