@@ -27,26 +27,25 @@ export const HeroSection = () => {
           </div>
           <div className="md:w-1/2 flex justify-center">
             <div className="relative w-full max-w-md">
-              {/* Background Design Elements - No animations */}
+              {/* Background Design Elements */}
               <div className="absolute -right-20 -top-20 w-40 h-40 rounded-full bg-tether-light opacity-60"></div>
               <div className="absolute right-20 bottom-0 w-24 h-24 rounded-full bg-tether-light opacity-40"></div>
               <div className="absolute left-10 top-10 w-16 h-16 rounded-full bg-tether-light opacity-30"></div>
               
-              {/* Flash USDT Logo - No animation */}
-              <div className="bg-tether-primary rounded-full p-8 w-64 h-64 mx-auto relative">
-                <svg className="w-full h-full text-white" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
-                  <path d="M12 6c-3.31 0-6 2.69-6 6h2c0-2.21 1.79-4 4-4s4 1.79 4 4h2c0-3.31-2.69-6-6-6z"/>
-                  <path d="M12 11h-2v2h2v-2zm4 0h-2v2h2v-2zm-8 0H6v2h2v-2z"/>
-                </svg>
-                <span className="sr-only">Flash USDT Logo</span>
+              {/* Flash USDT Logo */}
+              <div className="w-64 h-64 mx-auto relative flex items-center justify-center">
+                <img 
+                  src="/lovable-uploads/ad9a48d4-314f-4478-8172-c483ab24652e.png" 
+                  alt="Flash USDT Logo" 
+                  className="w-full h-full object-contain"
+                />
               </div>
             </div>
           </div>
         </div>
       </div>
       
-      {/* Background Pattern Elements - No animations */}
+      {/* Background Pattern Elements */}
       <div className="absolute right-0 top-1/4 w-64 h-64 opacity-10">
         <div className="w-full h-full border-2 border-tether-primary rounded-full"></div>
       </div>

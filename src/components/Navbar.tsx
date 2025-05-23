@@ -1,5 +1,4 @@
 
-import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
 export const Navbar = () => {
@@ -22,12 +21,6 @@ export const Navbar = () => {
             <NavLink href="#" text="Tether Gold" />
             <NavLink href="#" text="Transparency" />
           </div>
-        </div>
-        <div className="flex items-center space-x-4">
-          <Link to="#" className="hidden md:inline-block text-tether-dark-gray hover:text-tether-primary">Login</Link>
-          <Button className="bg-tether-primary hover:bg-tether-dark text-white px-4 py-2 rounded">
-            Register
-          </Button>
         </div>
       </div>
     </nav>
