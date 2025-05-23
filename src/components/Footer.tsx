@@ -7,16 +7,16 @@ export const Footer = () => {
           {/* First Column with Logo */}
           <div className="lg:col-span-2">
             <div className="flex items-center mb-4">
-              <svg className="h-8 w-8 text-tether-primary" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/>
-                <path fill="white" d="M17.2 10.25c0-.451-.37-.82-.82-.82h-8.76c-.451 0-.82.369-.82.82v1.42h10.4v-1.42z"/>
-                <path fill="white" d="M12 15.75c-2.069 0-3.75-1.681-3.75-3.75 0-2.069 1.681-3.75 3.75-3.75 2.069 0 3.75 1.681 3.75 3.75 0 2.069-1.681 3.75-3.75 3.75zm0-6c-1.241 0-2.25 1.009-2.25 2.25s1.009 2.25 2.25 2.25 2.25-1.009 2.25-2.25-1.009-2.25-2.25-2.25z"/>
-              </svg>
-              <span className="ml-2 text-xl font-bold">tether</span>
+              <img 
+                src="/lovable-uploads/097c7ca3-4b91-4175-9c6f-1b822378f012.png" 
+                alt="USDT Logo" 
+                className="h-8 w-auto"
+              />
+              <span className="ml-2 text-xl font-bold">USDT</span>
             </div>
             <h3 className="text-xl font-bold mb-4">Driving the Future of Money</h3>
             <p className="text-gray-400 text-sm mb-4">
-              Tether tokens are the most widely adopted stablecoins, having pioneered the concept in the digital token space. 
+              USDT tokens are the most widely adopted stablecoins, having pioneered the concept in the digital token space. 
               A disruptor to the conventional financial system and a trailblazer in the digital use of traditional currencies.
             </p>
           </div>
@@ -25,7 +25,7 @@ export const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4 text-sm uppercase">Resources</h4>
             <ul className="space-y-2 text-sm">
-              <FooterLink href="#" text="Why Tether" />
+              <FooterLink href="#" text="Why USDT" />
               <FooterLink href="#" text="How it Works" />
               <FooterLink href="#" text="Knowledge Base" />
               <FooterLink href="#" text="Transparency" />
@@ -57,7 +57,7 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-gray-700 pt-8 mt-8 text-gray-400 text-sm flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-4 md:mb-0">© 2024 Tether. All rights reserved.</div>
+          <div className="mb-4 md:mb-0">© 2024 USDT. All rights reserved.</div>
           <div className="flex space-x-4">
             <a href="#" className="hover:text-white">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">

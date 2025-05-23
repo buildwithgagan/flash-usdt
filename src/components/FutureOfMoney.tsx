@@ -7,13 +7,12 @@ export const FutureOfMoney = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
-            <div className="bg-tether-primary rounded-full p-8 w-64 h-64 mx-auto">
-              <svg className="w-full h-full text-white" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
-                <path d="M12 6c-3.31 0-6 2.69-6 6h2c0-2.21 1.79-4 4-4s4 1.79 4 4h2c0-3.31-2.69-6-6-6z"/>
-                <path d="M12 11h-2v2h2v-2zm4 0h-2v2h2v-2zm-8 0H6v2h2v-2z"/>
-              </svg>
-              <span className="sr-only">Flash USDT Logo</span>
+            <div className="relative w-64 h-64 mx-auto">
+              <img 
+                src="/lovable-uploads/097c7ca3-4b91-4175-9c6f-1b822378f012.png" 
+                alt="Flash USDT Logo" 
+                className="w-full h-full object-contain"
+              />
             </div>
           </div>
           <div className="md:w-1/2">
