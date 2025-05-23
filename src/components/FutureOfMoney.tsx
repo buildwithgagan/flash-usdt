@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export const FutureOfMoney = () => {
   return (
-    <section className="py-20 bg-white">
+    <section id="future" className="py-20 bg-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">

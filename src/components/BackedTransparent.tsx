@@ -1,7 +1,7 @@
 
 export const BackedTransparent = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-white to-tether-light">
+    <section id="transparent" className="py-20 bg-gradient-to-br from-white to-tether-light">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0 pr-0 md:pr-12">

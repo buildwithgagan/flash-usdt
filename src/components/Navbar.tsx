@@ -15,10 +15,10 @@ export const Navbar = () => {
             <span className="ml-2 text-xl font-bold text-tether-dark-gray">USDT</span>
           </Link>
           <div className="hidden md:flex ml-10 space-x-8">
-            <NavLink href="#" text="Why USDT?" />
-            <NavLink href="#" text="USDT" />
-            <NavLink href="#" text="Euro" />
-            <NavLink href="#" text="Tether Gold" />
+            <NavLink href="#future" text="Future" />
+            <NavLink href="#transparent" text="Transparent" />
+            <NavLink href="#adoption" text="Adoption" />
+            <NavLink href="#faqs" text="FAQs" />
             <NavLink href="#" text="Transparency" />
           </div>
         </div>
@@ -28,9 +28,25 @@ export const Navbar = () => {
 };
 
 const NavLink = ({ href, text }: { href: string; text: string }) => {
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    // Only handle if it's an anchor link
+    if (href.startsWith('#')) {
+      e.preventDefault();
+      const element = document.getElementById(href.substring(1));
+      if (element) {
+        // Scroll to the element with a smooth animation
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  };
+
   return (
-    <Link to={href} className="text-gray-600 hover:text-tether-primary text-sm font-medium">
+    <a 
+      href={href} 
+      className="text-gray-600 hover:text-tether-primary text-sm font-medium"
+      onClick={handleClick}
+    >
       {text}
-    </Link>
+    </a>
   );
 };

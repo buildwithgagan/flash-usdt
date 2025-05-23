@@ -8,7 +8,7 @@ import {
 
 export const FAQSection = () => {
   return (
-    <section className="py-20 bg-tether-primary text-white">
+    <section id="faqs" className="py-20 bg-tether-primary text-white">
       <div className="container mx-auto px-4 md:px-6">
         <h2 className="text-3xl font-bold mb-8 text-center">FAQs</h2>
         
