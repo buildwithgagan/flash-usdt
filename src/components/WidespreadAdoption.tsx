@@ -10,15 +10,6 @@ export const WidespreadAdoption = () => {
           Flash USDT tokens are the most widely adopted stablecoins across major blockchains and protocols, supporting a growing number of use cases in the digital economy.
         </p>
         
-        <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16 mb-12">
-          {/* Partner Logos - Using gray placeholders */}
-          {[1, 2, 3, 4, 5].map((i) => (
-            <div key={i} className="h-8 flex items-center opacity-60">
-              <div className="w-24 h-6 bg-gray-300 rounded"></div>
-            </div>
-          ))}
-        </div>
-        
         <div className="text-center">
           <h3 className="text-xl md:text-2xl font-bold text-tether-dark-gray mb-4">
             "The token that is disrupting the global financial industry"
