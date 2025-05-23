@@ -8,9 +8,9 @@ export const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center mb-4">
               <img 
-                src="/lovable-uploads/097c7ca3-4b91-4175-9c6f-1b822378f012.png" 
+                src="/lovable-uploads/62dca48f-7bdd-4f5c-802a-188e116aea13.png" 
                 alt="USDT Logo" 
-                className="h-8 w-auto"
+                className="h-12 w-auto"
               />
               <span className="ml-2 text-xl font-bold">USDT</span>
             </div>
@@ -25,10 +25,10 @@ export const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4 text-sm uppercase">Resources</h4>
             <ul className="space-y-2 text-sm">
-              <FooterLink href="#" text="Why USDT" />
-              <FooterLink href="#" text="How it Works" />
-              <FooterLink href="#" text="Knowledge Base" />
-              <FooterLink href="#" text="Transparency" />
+              <FooterLink href="#future" text="Future" />
+              <FooterLink href="#transparent" text="Transparent" />
+              <FooterLink href="#adoption" text="Adoption" />
+              <FooterLink href="#faqs" text="FAQs" />
               <FooterLink href="#" text="Fees" />
             </ul>
           </div>
@@ -77,9 +77,25 @@ export const Footer = () => {
 };
 
 const FooterLink = ({ href, text }: { href: string; text: string }) => {
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    // Only handle if it's an anchor link
+    if (href.startsWith('#')) {
+      e.preventDefault();
+      const element = document.getElementById(href.substring(1));
+      if (element) {
+        // Scroll to the element with a smooth animation
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  };
+
   return (
     <li>
-      <a href={href} className="text-gray-400 hover:text-white transition-colors">
+      <a 
+        href={href} 
+        className="text-gray-400 hover:text-white transition-colors" 
+        onClick={handleClick}
+      >
         {text}
       </a>
     </li>
