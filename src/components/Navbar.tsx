@@ -19,7 +19,6 @@ export const Navbar = () => {
             <NavLink href="#transparent" text="Transparent" />
             <NavLink href="#adoption" text="Adoption" />
             <NavLink href="#faqs" text="FAQs" />
-            <NavLink href="#" text="Transparency" />
           </div>
         </div>
       </div>
