@@ -1,10 +1,23 @@
-import { Link } from "react-router-dom";
+
+import { Link, useNavigate, useLocation } from "react-router-dom";
 
 export const Navbar = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
+
   const handleLogoClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
-    // Scroll to the top of the page (hero section) smoothly
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    // Navigate to home page first if not already there
+    if (location.pathname !== '/') {
+      navigate('/');
+      // Add a small delay to ensure the page loads before scrolling
+      setTimeout(() => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }, 100);
+    } else {
+      // Already on home page, just scroll to top
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
   };
 
   return (
@@ -31,14 +44,29 @@ export const Navbar = () => {
 };
 
 const NavLink = ({ href, text }: { href: string; text: string }) => {
+  const navigate = useNavigate();
+  const location = useLocation();
+
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    // Only handle if it's an anchor link
+    e.preventDefault();
+    
     if (href.startsWith('#')) {
-      e.preventDefault();
-      const element = document.getElementById(href.substring(1));
-      if (element) {
-        // Scroll to the element with a smooth animation
-        element.scrollIntoView({ behavior: 'smooth' });
+      // If we're not on the home page, navigate there first
+      if (location.pathname !== '/') {
+        navigate('/');
+        // Add a delay to ensure the page loads before scrolling
+        setTimeout(() => {
+          const element = document.getElementById(href.substring(1));
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+          }
+        }, 100);
+      } else {
+        // Already on home page, scroll directly
+        const element = document.getElementById(href.substring(1));
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
       }
     }
   };
