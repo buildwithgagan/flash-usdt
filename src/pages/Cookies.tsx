@@ -1,4 +1,3 @@
-
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
@@ -123,7 +122,7 @@ const Cookies = () => {
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <p className="text-gray-600">
                     <strong>Privacy Team</strong><br />
-                    Email: privacy@flashusdt.com<br />
+                    Email: support@f-usdt.xyz<br />
                     Subject: Cookie Policy Inquiry
                   </p>
                 </div>
