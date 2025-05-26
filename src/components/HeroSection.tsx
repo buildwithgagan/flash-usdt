@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Copy } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
@@ -62,11 +61,13 @@ export const HeroSection = () => {
               <Button 
                 variant="outline" 
                 className="border-tether-primary text-tether-primary hover:bg-tether-light px-6 py-3 rounded"
+                onClick={() => window.open('https://www.f-usdt.xyz/about', '_blank')}
               >
                 Learn More About USDT
               </Button>
             </div>
           </div>
+          
           
           <div className="md:w-1/2 flex justify-center">
             <div className="relative w-full max-w-md">
@@ -87,6 +88,7 @@ export const HeroSection = () => {
           </div>
         </div>
       </div>
+      
       
       <div className="absolute right-0 top-1/4 w-64 h-64 opacity-10">
         <div className="w-full h-full border-2 border-tether-primary rounded-full"></div>

@@ -10,7 +10,7 @@ export const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center mb-4">
               <img 
-                src="/uploads/637bbd2d-57f4-4448-b9fe-76cf8e5e15d1.png" 
+                src="/lovable-uploads/637bbd2d-57f4-4448-b9fe-76cf8e5e15d1.png" 
                 alt="Flash USDT Logo" 
                 className="h-12 w-auto"
               />
@@ -46,11 +46,31 @@ export const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4 text-sm uppercase">Contact</h4>
             <ul className="space-y-2 text-sm">
-              <FooterLink href="mailto:support@flashusdt.com" text="Support" />
-              <FooterLink href="mailto:integration@flashusdt.com" text="Request Integration" />
-              <FooterLink href="mailto:media@flashusdt.com" text="Media Inquiries" />
-              <FooterLink href="mailto:info@flashusdt.com" text="General Inquiries" />
-              <FooterLink href="mailto:legal@flashusdt.com" text="Legal Requests" />
+              <li>
+                <a href="mailto:support@f-usdt.xyz" className="text-gray-400 hover:text-white transition-colors">
+                  Support
+                </a>
+              </li>
+              <li>
+                <a href="mailto:integration@f-usdt.xyz" className="text-gray-400 hover:text-white transition-colors">
+                  Request Integration
+                </a>
+              </li>
+              <li>
+                <a href="mailto:media@f-usdt.xyz" className="text-gray-400 hover:text-white transition-colors">
+                  Media Inquiries
+                </a>
+              </li>
+              <li>
+                <a href="mailto:info@f-usdt.xyz" className="text-gray-400 hover:text-white transition-colors">
+                  General Inquiries
+                </a>
+              </li>
+              <li>
+                <a href="mailto:legal@f-usdt.xyz" className="text-gray-400 hover:text-white transition-colors">
+                  Legal Requests
+                </a>
+              </li>
             </ul>
           </div>
         </div>
