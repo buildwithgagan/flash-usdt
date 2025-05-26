@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 
 export const Footer = () => {
@@ -48,27 +47,17 @@ export const Footer = () => {
             <ul className="space-y-2 text-sm">
               <li>
                 <a href="mailto:support@f-usdt.xyz" className="text-gray-400 hover:text-white transition-colors">
-                  Support
+                  support@f-usdt.xyz
                 </a>
               </li>
               <li>
-                <a href="mailto:integration@f-usdt.xyz" className="text-gray-400 hover:text-white transition-colors">
-                  Request Integration
+                <a href="https://x.com/vib88_" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                  X.com
                 </a>
               </li>
               <li>
-                <a href="mailto:media@f-usdt.xyz" className="text-gray-400 hover:text-white transition-colors">
-                  Media Inquiries
-                </a>
-              </li>
-              <li>
-                <a href="mailto:info@f-usdt.xyz" className="text-gray-400 hover:text-white transition-colors">
-                  General Inquiries
-                </a>
-              </li>
-              <li>
-                <a href="mailto:legal@f-usdt.xyz" className="text-gray-400 hover:text-white transition-colors">
-                  Legal Requests
+                <a href="https://t.me/flashusdt" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                  Telegram
                 </a>
               </li>
             </ul>
