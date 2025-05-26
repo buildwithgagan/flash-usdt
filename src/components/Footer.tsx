@@ -1,6 +1,12 @@
 import { Link } from "react-router-dom";
 
 export const Footer = () => {
+  const handleLogoClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    // Scroll to the top of the page (hero section) smoothly
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <footer className="bg-tether-dark-gray text-white pt-16 pb-8">
       <div className="container mx-auto px-4 md:px-6">
@@ -8,12 +14,14 @@ export const Footer = () => {
           {/* First Column with Logo */}
           <div className="lg:col-span-2">
             <div className="flex items-center mb-4">
-              <img 
-                src="/lovable-uploads/637bbd2d-57f4-4448-b9fe-76cf8e5e15d1.png" 
-                alt="Flash USDT Logo" 
-                className="h-12 w-auto"
-              />
-              <span className="ml-2 text-xl font-bold">Flash USDT</span>
+              <Link to="/" className="flex items-center" onClick={handleLogoClick}>
+                <img 
+                  src="/lovable-uploads/637bbd2d-57f4-4448-b9fe-76cf8e5e15d1.png" 
+                  alt="Flash USDT Logo" 
+                  className="h-12 w-auto"
+                />
+                <span className="ml-2 text-xl font-bold">Flash USDT</span>
+              </Link>
             </div>
             <p className="text-gray-400 text-sm mb-4">
               Flash USDT tokens are the most widely adopted stablecoins, having pioneered the concept in the digital token space. 
