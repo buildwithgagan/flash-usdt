@@ -33,7 +33,7 @@ export const HeroSection = () => {
               Flash USDT
             </h1>
             <h2 className="text-3xl md:text-4xl font-bold text-tether-dark-gray mb-8">
-              The World's First Stablecoin
+              The World's Favorite Stablecoin
             </h2>
             
             {/* Smart Contract Address Section */}
