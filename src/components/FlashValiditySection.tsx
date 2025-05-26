@@ -1,4 +1,3 @@
-
 import { Shield, Clock, CheckCircle, Zap } from "lucide-react";
 
 export const FlashValiditySection = () => {
