@@ -78,7 +78,7 @@ export const HeroSection = () => {
               {/* Flash USDT Logo */}
               <div className="w-64 h-64 mx-auto relative flex items-center justify-center">
                 <img 
-                  src="/lovable-uploads/022654a8-7409-43a0-b69c-198ad3d547e9.png" 
+                  src="/uploads/022654a8-7409-43a0-b69c-198ad3d547e9.png" 
                   alt="Flash USDT Logo" 
                   className="w-full h-full object-contain"
                 />

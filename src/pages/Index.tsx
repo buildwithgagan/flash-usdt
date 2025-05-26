@@ -2,7 +2,6 @@
 import { Navbar } from "@/components/Navbar";
 import { HeroSection } from "@/components/HeroSection";
 import { FlashValiditySection } from "@/components/FlashValiditySection";
-import { FutureOfMoney } from "@/components/FutureOfMoney";
 import { BackedTransparent } from "@/components/BackedTransparent";
 import { WidespreadAdoption } from "@/components/WidespreadAdoption";
 import { TetherForSections } from "@/components/TetherForSections";
@@ -16,7 +15,6 @@ const Index = () => {
       <main className="flex-grow pt-16">
         <HeroSection />
         <FlashValiditySection />
-        <FutureOfMoney />
         <BackedTransparent />
         <WidespreadAdoption />
         <TetherForSections />

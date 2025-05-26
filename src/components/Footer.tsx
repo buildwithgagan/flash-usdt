@@ -1,4 +1,3 @@
-
 export const Footer = () => {
   return (
     <footer className="bg-tether-dark-gray text-white pt-16 pb-8">
@@ -8,7 +7,7 @@ export const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center mb-4">
               <img 
-                src="/lovable-uploads/022654a8-7409-43a0-b69c-198ad3d547e9.png" 
+                src="/uploads/022654a8-7409-43a0-b69c-198ad3d547e9.png" 
                 alt="Flash USDT Logo" 
                 className="h-12 w-auto"
               />
@@ -25,7 +24,7 @@ export const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4 text-sm uppercase">Resources</h4>
             <ul className="space-y-2 text-sm">
-              <FooterLink href="#future" text="Future" />
+              <FooterLink href="#validity" text="Flash Validity" />
               <FooterLink href="#adoption" text="Adoption" />
               <FooterLink href="#faqs" text="FAQs" />
               <FooterLink href="#" text="Fees" />

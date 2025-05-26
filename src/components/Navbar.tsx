@@ -8,7 +8,7 @@ export const Navbar = () => {
         <div className="flex items-center">
           <Link to="/" className="flex items-center">
             <img 
-              src="/lovable-uploads/022654a8-7409-43a0-b69c-198ad3d547e9.png" 
+              src="/uploads/022654a8-7409-43a0-b69c-198ad3d547e9.png" 
               alt="Flash USDT Logo" 
               className="h-8 w-auto"
             />
