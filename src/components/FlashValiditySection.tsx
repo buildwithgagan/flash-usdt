@@ -1,3 +1,4 @@
+
 import { Shield, Clock, CheckCircle, Zap } from "lucide-react";
 
 export const FlashValiditySection = () => {
@@ -37,23 +38,8 @@ export const FlashValiditySection = () => {
           <div className="max-w-4xl mx-auto">
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
               In the crypto world, USDT (Tether) transactions are fast — but finality isn't always instant. 
-              Especially on chains like TRON, a USDT transfer can appear before it's been validated. 
-              That opens the door to potential:
+              Especially on chains like TRON, a USDT transfer can appear before it's been validated.
             </p>
-            <div className="grid md:grid-cols-3 gap-6">
-              <div className="bg-red-50 border-l-4 border-red-400 p-6 rounded-r-lg">
-                <h4 className="font-semibold text-red-800 mb-2">Reversal risks</h4>
-                <p className="text-red-700 text-sm">(in rare edge cases)</p>
-              </div>
-              <div className="bg-orange-50 border-l-4 border-orange-400 p-6 rounded-r-lg">
-                <h4 className="font-semibold text-orange-800 mb-2">Fraudulent screenshots</h4>
-                <p className="text-orange-700 text-sm">claiming "sent" funds</p>
-              </div>
-              <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-r-lg">
-                <h4 className="font-semibold text-yellow-800 mb-2">Misuse in workflows</h4>
-                <p className="text-yellow-700 text-sm">like casino deposits or instant commissions</p>
-              </div>
-            </div>
             <div className="text-center mt-8">
               <p className="text-xl font-semibold text-tether-primary">Flash USDT Validity closes that gap.</p>
             </div>

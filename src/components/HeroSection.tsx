@@ -1,6 +1,8 @@
+
 import { Button } from "@/components/ui/button";
 import { Copy } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import { Link } from "react-router-dom";
 
 export const HeroSection = () => {
   const { toast } = useToast();
@@ -58,13 +60,14 @@ export const HeroSection = () => {
               <Button className="bg-tether-primary hover:bg-tether-dark text-white px-6 py-3 rounded">
                 Get Started
               </Button>
-              <Button 
-                variant="outline" 
-                className="border-tether-primary text-tether-primary hover:bg-tether-light px-6 py-3 rounded"
-                onClick={() => window.open('https://www.f-usdt.xyz/about', '_blank')}
-              >
-                Learn More About USDT
-              </Button>
+              <Link to="/about">
+                <Button 
+                  variant="outline" 
+                  className="border-tether-primary text-tether-primary hover:bg-tether-light px-6 py-3 rounded"
+                >
+                  Learn More About USDT
+                </Button>
+              </Link>
             </div>
           </div>
           
