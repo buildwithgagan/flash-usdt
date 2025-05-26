@@ -1,3 +1,6 @@
+
+import { Link } from "react-router-dom";
+
 export const Footer = () => {
   return (
     <footer className="bg-tether-dark-gray text-white pt-16 pb-8">
@@ -13,7 +16,6 @@ export const Footer = () => {
               />
               <span className="ml-2 text-xl font-bold">Flash USDT</span>
             </div>
-            <h3 className="text-xl font-bold mb-4">Driving the Future of Money</h3>
             <p className="text-gray-400 text-sm mb-4">
               Flash USDT tokens are the most widely adopted stablecoins, having pioneered the concept in the digital token space. 
               A disruptor to the conventional financial system and a trailblazer in the digital use of traditional currencies.
@@ -34,11 +36,10 @@ export const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4 text-sm uppercase">Company</h4>
             <ul className="space-y-2 text-sm">
-              <FooterLink href="#" text="About Us" />
-              <FooterLink href="#" text="Careers" />
-              <FooterLink href="#" text="Legal" />
-              <FooterLink href="#" text="Privacy Policy" />
-              <FooterLink href="#" text="Cookie Policy" />
+              <FooterLink href="/about" text="About Us" />
+              <FooterLink href="/legal" text="Legal" />
+              <FooterLink href="/privacy" text="Privacy Policy" />
+              <FooterLink href="/cookies" text="Cookie Policy" />
             </ul>
           </div>
 
@@ -86,6 +87,20 @@ const FooterLink = ({ href, text }: { href: string; text: string }) => {
       }
     }
   };
+
+  // Use Link for internal routes, regular anchor for external or hash links
+  if (href.startsWith('/')) {
+    return (
+      <li>
+        <Link 
+          to={href} 
+          className="text-gray-400 hover:text-white transition-colors"
+        >
+          {text}
+        </Link>
+      </li>
+    );
+  }
 
   return (
     <li>
