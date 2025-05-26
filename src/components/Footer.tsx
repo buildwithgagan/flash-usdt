@@ -7,7 +7,7 @@ export const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center mb-4">
               <img 
-                src="/uploads/022654a8-7409-43a0-b69c-198ad3d547e9.png" 
+                src="/lovable-uploads/637bbd2d-57f4-4448-b9fe-76cf8e5e15d1.png" 
                 alt="Flash USDT Logo" 
                 className="h-12 w-auto"
               />

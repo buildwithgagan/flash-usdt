@@ -20,8 +20,8 @@ export const BackedTransparent = () => {
           <div className="md:w-1/2 flex items-center justify-center">
             <div className="relative w-64 h-64 p-4">
               <img 
-                src="/lovable-uploads/ec147ca9-4d05-46c8-bba5-e0c91bcd5a7f.png" 
-                alt="USDT Logo" 
+                src="/lovable-uploads/637bbd2d-57f4-4448-b9fe-76cf8e5e15d1.png" 
+                alt="Flash USDT Logo" 
                 className="w-full h-full object-contain"
               />
             </div>

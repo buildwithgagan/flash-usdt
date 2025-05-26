@@ -8,14 +8,14 @@ export const Navbar = () => {
         <div className="flex items-center">
           <Link to="/" className="flex items-center">
             <img 
-              src="/uploads/022654a8-7409-43a0-b69c-198ad3d547e9.png" 
+              src="/lovable-uploads/637bbd2d-57f4-4448-b9fe-76cf8e5e15d1.png" 
               alt="Flash USDT Logo" 
               className="h-8 w-auto"
             />
             <span className="ml-2 text-xl font-bold text-tether-dark-gray">Flash USDT</span>
           </Link>
           <div className="hidden md:flex ml-10 space-x-8">
-            <NavLink href="#future" text="Future" />
+            <NavLink href="#validity" text="Flash Validity" />
             <NavLink href="#adoption" text="Adoption" />
             <NavLink href="#faqs" text="FAQs" />
           </div>
