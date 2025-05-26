@@ -46,17 +46,17 @@ export const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4 text-sm uppercase">Contact</h4>
             <ul className="space-y-2 text-sm">
-              <FooterLink href="#" text="Support" />
-              <FooterLink href="#" text="Request Integration" />
-              <FooterLink href="#" text="Media Inquiries" />
-              <FooterLink href="#" text="General Inquiries" />
-              <FooterLink href="#" text="Legal Requests" />
+              <FooterLink href="mailto:support@flashusdt.com" text="Support" />
+              <FooterLink href="mailto:integration@flashusdt.com" text="Request Integration" />
+              <FooterLink href="mailto:media@flashusdt.com" text="Media Inquiries" />
+              <FooterLink href="mailto:info@flashusdt.com" text="General Inquiries" />
+              <FooterLink href="mailto:legal@flashusdt.com" text="Legal Requests" />
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-700 pt-8 mt-8 text-gray-400 text-sm flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-4 md:mb-0">© 2024 Flash USDT. All rights reserved.</div>
+          <div className="mb-4 md:mb-0">© 2025 Flash USDT. All rights reserved.</div>
           <div className="flex space-x-4">
             <a href="https://x.com/vib88_" target="_blank" rel="noopener noreferrer" className="hover:text-white">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
