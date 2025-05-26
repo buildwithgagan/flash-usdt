@@ -8,15 +8,15 @@ export const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center mb-4">
               <img 
-                src="/lovable-uploads/62dca48f-7bdd-4f5c-802a-188e116aea13.png" 
-                alt="USDT Logo" 
+                src="/lovable-uploads/022654a8-7409-43a0-b69c-198ad3d547e9.png" 
+                alt="Flash USDT Logo" 
                 className="h-12 w-auto"
               />
-              <span className="ml-2 text-xl font-bold">USDT</span>
+              <span className="ml-2 text-xl font-bold">Flash USDT</span>
             </div>
             <h3 className="text-xl font-bold mb-4">Driving the Future of Money</h3>
             <p className="text-gray-400 text-sm mb-4">
-              USDT tokens are the most widely adopted stablecoins, having pioneered the concept in the digital token space. 
+              Flash USDT tokens are the most widely adopted stablecoins, having pioneered the concept in the digital token space. 
               A disruptor to the conventional financial system and a trailblazer in the digital use of traditional currencies.
             </p>
           </div>
@@ -26,7 +26,6 @@ export const Footer = () => {
             <h4 className="font-semibold mb-4 text-sm uppercase">Resources</h4>
             <ul className="space-y-2 text-sm">
               <FooterLink href="#future" text="Future" />
-              <FooterLink href="#transparent" text="Transparent" />
               <FooterLink href="#adoption" text="Adoption" />
               <FooterLink href="#faqs" text="FAQs" />
               <FooterLink href="#" text="Fees" />
@@ -57,7 +56,7 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-gray-700 pt-8 mt-8 text-gray-400 text-sm flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-4 md:mb-0">© 2024 USDT. All rights reserved.</div>
+          <div className="mb-4 md:mb-0">© 2024 Flash USDT. All rights reserved.</div>
           <div className="flex space-x-4">
             <a href="#" className="hover:text-white">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">

@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Copy } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
@@ -77,7 +78,7 @@ export const HeroSection = () => {
               {/* Flash USDT Logo */}
               <div className="w-64 h-64 mx-auto relative flex items-center justify-center">
                 <img 
-                  src="/lovable-uploads/d858fd52-056d-41a8-b060-b1157483ee7c.png" 
+                  src="/lovable-uploads/022654a8-7409-43a0-b69c-198ad3d547e9.png" 
                   alt="Flash USDT Logo" 
                   className="w-full h-full object-contain"
                 />
